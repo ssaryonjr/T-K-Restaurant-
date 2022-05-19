@@ -367,6 +367,7 @@ header{
     font-size: 1.8rem;
     text-transform: uppercase;
     transition: 0.7s;
+    border-radius: 2px;
 }
 
 .outline-btn:hover{

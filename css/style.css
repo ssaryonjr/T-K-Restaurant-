@@ -33,16 +33,37 @@ nav {
     width: 100%;
     height: 110px;
     background-color: #ffffff;
-    border-bottom: 1px solid #dadada;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     top: 0;
     position: fixed;
     z-index: 100;
     padding: 0 3rem;
+    transition:0.5s;
 }
+
+.scrolling-nav{
+  height: 75px;
+  border-bottom: 1px solid #dadada;
+}
+
+.scrolling-nav .logo{
+  width: 6rem;
+  transition: 0.5s;
+}
+
+.scrolling-nav .filled-btn{
+  padding: 8px 22px;
+}
+
+/*Mobile Menu */
+
+
+
+
+/*End of Mobile Menu */
 
 .nav-items{
     display: flex;
@@ -117,17 +138,8 @@ nav {
     border-color: rgb(245, 147, 0);
 }
 
-.fa-cart-shopping{
-    color: black;
-    font-size: 3.1rem;
-    margin-right: 2rem;
-    transition: 0.4s;
-}
 
-.fa-cart-shopping:hover{
-    color:rgb(0, 0, 0);
-    transform: scale(1.1);
-}
+/* HEADER */
 
 header{
     width: 100%;
@@ -285,12 +297,10 @@ header{
 }
 }
 
-
-@media screen and (max-width: 775px){
-    .order-box .filled-btn,
-    .fa-cart-shopping{
-        display: none;
-    }
+@media screen and (max-width: 715px){
+  .order-box .filled-btn{
+      display: none;
+  }
 }
 
 @media screen and (max-width: 500px){

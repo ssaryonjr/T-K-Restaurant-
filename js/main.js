@@ -216,42 +216,62 @@ const swiper = new Swiper('.swiper', {
 
 
 
-  const testimony = new Swiper('.testimony-carousel', {
-	// Optional parameters
-	direction: 'horizontal',
-	loop: true,
-	autoplay: true,
-	disableOnInteraction: false,
-  
-	// If we need pagination
-	pagination: {
-	  el: '.swiper-pagination',
-	},
-  
-	// And if we need scrollbar
-	scrollbar: {
-	  el: '.swiper-scrollbar',
-	},
-  
-	// Default parameters
+const testimony = new Swiper('.testimony-carousel', {
+// Optional parameters
+direction: 'horizontal',
+loop: true,
+autoplay: true,
+disableOnInteraction: false,
+
+// If we need pagination
+pagination: {
+	el: '.swiper-pagination',
+},
+
+// And if we need scrollbar
+scrollbar: {
+	el: '.swiper-scrollbar',
+},
+
+// Default parameters
+slidesPerView: 1,
+spaceBetween: 10,
+// Responsive breakpoints
+breakpoints: {
+	// when window width is >= 320px
+	320: {
 	slidesPerView: 1,
-	spaceBetween: 10,
-	// Responsive breakpoints
-	breakpoints: {
-	  // when window width is >= 320px
-	  320: {
-		slidesPerView: 1,
-		spaceBetween: 20
-	  },
-	  // when window width is >= 480px
-	  768: {
-		slidesPerView: 2,
-		spaceBetween: 30
-	  },
-	  // when window width is >= 640px
-	  993: {
-		slidesPerView: 3,
-		spaceBetween: 40
-	  }
+	spaceBetween: 20
+	},
+	// when window width is >= 480px
+	768: {
+	slidesPerView: 2,
+	spaceBetween: 30
+	},
+	// when window width is >= 640px
+	993: {
+	slidesPerView: 3,
+	spaceBetween: 40
 	}
-  });
+	}
+});
+
+
+window.addEventListener('scroll', ()=> {
+	const pageScroll = window.scrollY;
+	const navBar = document.querySelector('nav');
+
+	pageScroll > 111 
+	? navBar.classList.add('scrolling-nav') 
+	: navBar.classList.remove('scrolling-nav')
+})
+
+const hamburgerMenu = document.querySelector('.menuBar')
+
+hamburgerMenu.addEventListener('click', ()=> {
+	hamburgerMenu.classList.toggle('active')
+	const dropList = document.querySelector('.mobile-nav');
+	
+})
+
+

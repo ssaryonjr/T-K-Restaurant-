@@ -219,7 +219,7 @@ const swiper = new Swiper('.swiper', {
 const testimony = new Swiper('.testimony-carousel', {
 // Optional parameters
 direction: 'horizontal',
-loop: true,
+// loop: true,
 autoplay: true,
 disableOnInteraction: false,
 
@@ -257,21 +257,33 @@ breakpoints: {
 });
 
 
+const nav = document.querySelector('nav');
+const dropdown = nav.querySelector('.dropdown');
+const dropdownToggle = nav.querySelector("[data-action='dropdown-toggle']");
+const navToggle = nav.querySelector("[data-action='nav-toggle']");
+
+dropdownToggle.addEventListener('click', () => {
+	if (dropdown.classList.contains('show')) {
+		dropdown.classList.remove('show');
+	} else {
+		dropdown.classList.add('show');
+	}
+})
+
+navToggle.addEventListener('click', () => {
+	if (nav.classList.contains('opened')) {
+		nav.classList.remove('opened');
+	} else {
+		nav.classList.add('opened');
+	}
+})
+
+
 window.addEventListener('scroll', ()=> {
 	const pageScroll = window.scrollY;
-	const navBar = document.querySelector('nav');
+	// const navBar = document.querySelector('nav');
 
 	pageScroll > 111 
-	? navBar.classList.add('scrolling-nav') 
-	: navBar.classList.remove('scrolling-nav')
+	? nav.classList.add('scrolling-nav') 
+	: nav.classList.remove('scrolling-nav')
 })
-
-const hamburgerMenu = document.querySelector('.menuBar')
-
-hamburgerMenu.addEventListener('click', ()=> {
-	hamburgerMenu.classList.toggle('active')
-	const dropList = document.querySelector('.mobile-nav');
-	
-})
-
-

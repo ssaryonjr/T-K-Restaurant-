@@ -35,29 +35,40 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body data-spy="scroll" data-target="#ftco-navbar" data-offset="200">
+  
     <nav>
-      <div class="nav-items">
-        <div class="nav-logo">
-          <img class="logo" src="images/t&klogo.png" alt="logo">
-          <h1>T&K Restaurant</h1>
-        </div>
-        <ul class="nav-menu">
-          <li><a href="#"> Home</a></li>
-          <li><a href="#"> About</a></li>
-          <li><a href="#"> Menu</a></li>
-          <li><a href="#"> Reviews</a></li>
-          <li><a href="#"> Gallery</a></li>
-          <li><a href="#"> Contact</a></li>
-        </ul>
-        <div class="order-box">
-          <button class="filled-btn small"><i class="fa-solid fa-cart-shopping"></i> Order Online
-          </button>
-          <div class="menuBar">
-            <span class="bar"></span>
-          </div>
-        </div>
+      <div class="nav-wrapper">
+        <div class="logo">
+        <img src="https://astonishing-cendol-9de6c8.netlify.app/images/t&klogo.png">
+        <h1>T&K Restaurant</h1>
       </div>
+      <button type="button" class="btn-hamburger" data-action="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="#">Home</a></li>
+        <li class="nav-item"><a href="#">About</a></li>
+        <li class="nav-item"><a href="#">Menu</a></li>
+        <li class="nav-item"><a href="#">Reviews</a></li>
+        <li class="nav-item"><a href="#">Gallery</a></li>
+        <li class="nav-item dropdown">
+          <a href="#" data-action="dropdown-toggle">Contact</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Project 1</a>
+            <a class="dropdown-item" href="#">Project 2</a>
+            <a class="dropdown-item" href="#">Project 3</a>
+          </div>
+        </li>
+      </ul>
+
+      <button class="filled-btn small"><i class="fa-solid fa-cart-shopping"></i> Order Online
+      </button>
     </nav>
+      
   <header>
       
       <!-- Slider main container -->
@@ -81,6 +92,9 @@
           <p>Portland's finest Nigerian cuisine restaurant bringing a rich taste of flavor, spices, and history. Get it delivered right to your door</p>
           <a href="https://www.doordash.com/store/t&k-restaurant-portland-23025816/" target="_blank"><button class="outline-btn">Order Online</button></a>
       </div>
+      <ul class="drop-down-list">
+        <li></li>
+      </ul>
   </header>
 
 <!--Header-->
@@ -96,7 +110,7 @@
         <p>As people, we will always hold a special place in our hearts for the food we all loved growing up. Kenny & TJ noticed a need for authentic Nigerian cuisine in their community and jumped at the opportunity to follow their passion while connecting their love for their homeland's tradition with the rest of the world. Rather than taking you to Nigeria, our menu brings a rich authentic Nigerian taste that brings Nigeria to you.  
         </p>
 
-        <p>The vision has been to create an out-of-body experience for every customer that tastes our food. We only use the freshest West African ingredients and use traditional recipes passed down from generations. Our menu ranges from jollof rice to pepper soup, you'll have no trouble finding a favorite dish. We’ll even bring it to you with our delivery services found through our partner's Door Dash. So let your appetite take over at T&K and prepare for the finest dining experience.</p>
+        <p>The vision has been to create an out-of-body experience for every customer that tastes our food. We only use the freshest West African ingredients and use traditional recipes passed down from generations. Our menu ranges from jollof rice to pepper soup, you'll have no trouble finding a favorite dish. We will even deliver it to you with through our partner Door Dash. So let your appetite take over at T&K and prepare for the finest dining experience.</p>
       </div>
       <div class="about-img ftco-animate">
         <img src="images/aboutuspic.png" alt="about us">

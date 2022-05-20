@@ -79,7 +79,7 @@ nav {
 
 .nav-menu li a{
     color: rgb(0, 0, 0);
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-left: 3.4rem;
     font-weight: 300;
 }
@@ -382,7 +382,7 @@ header{
   color: #acacac;
 }
 
-@media screen and (max-width: 992px){
+/* @media screen and (max-width: 992px){
   .img-shadow{
     right: 15px;
     width: 85%;
@@ -393,10 +393,10 @@ header{
     width: 45%;
     margin-left: 5%;
   }
-}
+} */
 
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 992px){
   .about-container{
     flex-direction: column;
     height: 100%;

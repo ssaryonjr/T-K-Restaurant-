@@ -79,11 +79,15 @@ nav {
 
 .nav-menu li a{
     color: rgb(0, 0, 0);
-    font-size: 1.8rem;
-    margin-left: 3.4rem;
+    font-size: 1.9rem;
+    margin: 0 1rem;
     font-weight: 300;
 }
 
+.nav-menu li a:hover{
+  color: rgb(245, 98, 0);
+  text-decoration: none;
+}
 
 .order-box{
     display: flex;
@@ -154,7 +158,6 @@ header{
 }
 
 .header-img3{
-    
     background-image: url('../images/puffpuff-dark.jpg');
 }
 
@@ -212,7 +215,7 @@ header{
     color:rgb(0, 0, 0);
 }
 
-@media screen and (max-width: 1075px){
+@media screen and (max-width: 1105px){
     .nav-menu{
         display: none;
     }
@@ -380,6 +383,7 @@ header{
 .about-info p{
   font-size: 1.8rem;
   color: #acacac;
+  margin-bottom: 2rem;
 }
 
 /* @media screen and (max-width: 992px){

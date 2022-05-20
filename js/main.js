@@ -192,6 +192,7 @@ const swiper = new Swiper('.swiper', {
 	// Optional parameters
 	direction: 'horizontal',
 	loop: true,
+	simulateTouch: false,
 	  // effect: 'fade',
 	  // fadeEffect: {
 	  //     crossFade: true
@@ -220,6 +221,7 @@ const swiper = new Swiper('.swiper', {
 	direction: 'horizontal',
 	loop: true,
 	autoplay: true,
+	disableOnInteraction: false,
   
 	// If we need pagination
 	pagination: {

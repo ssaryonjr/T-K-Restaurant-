@@ -262,13 +262,6 @@ const dropdown = nav.querySelector('.dropdown');
 const dropdownToggle = nav.querySelector("[data-action='dropdown-toggle']");
 const navToggle = nav.querySelector("[data-action='nav-toggle']");
 
-// dropdownToggle.addEventListener('click', () => {
-// 	if (dropdown.classList.contains('show')) {
-// 		dropdown.classList.remove('show');
-// 	} else {
-// 		dropdown.classList.add('show');
-// 	}
-// })
 
 navToggle.addEventListener('click', () => {
 	if (nav.classList.contains('opened')) {
@@ -289,3 +282,8 @@ window.addEventListener('scroll', ()=> {
 })
 
 const mobileMenuItems = document.querySelectorAll('.nav-menu .nav-item a')
+mobileMenuItems.forEach(item => {
+	item.addEventListener('click', ()=>{
+		nav.classList.remove('opened');
+	})
+})

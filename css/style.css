@@ -847,7 +847,7 @@ header{
 .footer-row ul{
 	list-style: none;
   }
-  
+
   .footer{
 	background-color: #f1efed;
 	  padding: 2.5rem 0;
@@ -919,6 +919,10 @@ header{
 	.footer-col{
 	  width: 50%;
 	  margin-bottom: 30px;
+  }
+
+  .footer-col h4{
+    margin-bottom: 12px;
   }
   }
   @media(max-width: 574px){

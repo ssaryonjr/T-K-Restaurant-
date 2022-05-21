@@ -289,10 +289,3 @@ window.addEventListener('scroll', ()=> {
 })
 
 const mobileMenuItems = document.querySelectorAll('.nav-menu .nav-item a')
-
-console.log(mobileMenuItems)
-
-
-// mobileMenuItems.addEventListener('click', ()=>{
-// 	console.log('hi')
-// })

@@ -11,6 +11,7 @@ T&K Restaurant is one of Portland's finest Nigerian cuisines spots in the city. 
 <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" height=25>
 <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" height=25>
 <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" height=25>
+<img src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white" height=25>
 </p>
 
 <b>Technologies & Tools Utilized:</b> JavaScript, Boostrap, HTML & CSS.</b> This particular project was developed for a client of mines. After drawing up multiple designs they went with this because of it's modern look and subtle hints of style that higlights culture.

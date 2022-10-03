@@ -1,5 +1,5 @@
 # T&K Nigerian Restaurant - A Taste of Africa!
-T&K Restaurant is one of Portland's finest Nigerian cuisines spots in the city. Owned by TJ and Kenny, I worked with both these gentlemen to see how I could bring their business vision to life in a digital format. <a href="https://tandkpdx.com/">Click here </a> to check out their menu but warning, I wouldn't recommend it on an empty stomach! 
+T&K Restaurant is one of Portland's finest Nigerian cuisines spots in the city. TJ and Kenny who are the founders of T&K Restaurant, I worked with both these gentlemen to see how I could bring their business vision to life in a digital format. <a href="https://tandkpdx.com/">Click here </a> to check out their menu but warning, I wouldn't recommend it on an empty stomach! 
 
 <p align="center">
 <img src="https://github.com/ssaryonjr/ssaryonjr/raw/main/ezgif.com-gif-maker%20(5).gif?raw=true" height="500px" />
@@ -20,14 +20,10 @@ T&K Restaurant is one of Portland's finest Nigerian cuisines spots in the city. 
 - On the JavaScript side I took advantage of asynchronous programming and promises to retrieve data from the OMDb API.
 
 ## Features
-- Mobile, Desktop, iPad, Tablets & other device type friendly.
+- Mobile, Desktop, iPad, Tablets & other device types friendly.
 <p align="center">
 <img src="https://github.com/ssaryonjr/T-K-Restaurant-/blob/main/ezgif.com-gif-maker%20(1).gif?raw=true" width="300px">
-</p>
-
-- Movie finder drop down search bar.
-<p align="center">
-<img src="https://github.com/ssaryonjr/iMovie-Reviews/blob/main/ezgif.com-gif-maker.gif?raw=true" width="100%">
+<img src="https://i.imgur.com/gkStGuk.png" width="455px">
 </p>
 
 ## Lessons Learned

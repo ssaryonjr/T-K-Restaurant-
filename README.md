@@ -19,6 +19,7 @@ T&K Restaurant is one of Portland's finest Nigerian cuisines spots in the city. 
 - I've structured my HTML using semantic tags for better accesibility for a broad range of users.
 - I leveraged a mixture of CSS and Bootstrap to make a fluid UI.
 - I linked the `Order Online` button in the navigation to their DoorDash page for easy access for online delivery.
+- Integrated Swiper.js to assist in creating fast and fluid slider components for customer reviews.
 
 ## Features
 - Mobile, Desktop, iPad, Tablets & other device types friendly.

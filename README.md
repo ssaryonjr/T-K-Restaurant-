@@ -13,11 +13,12 @@ T&K Restaurant is one of Portland's finest Nigerian cuisines spots in the city. 
 <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" height=25>
 </p>
 
-<b>Technologies & Tools Utilized:</b> JavaScript, OMDb API, Swiper.js, HTML & CSS.</b> This project was inspired directly from popular streaming platforms such as Netflix. This project highlights the use of working with third party API's to dynamically change the user interface with JavaScript.
+<b>Technologies & Tools Utilized:</b> JavaScript, Boostrap, HTML & CSS.</b> This particular project was developed for a client of mines. After drawing up multiple designs they went with this because of it's modern look and subtle hints of style that higlights culture.
 
-- I was able to implement new HTML5 features such as videos to give the user interface a more dynamimc view and went with the more semantic approach of using HTML elements to give more users a better experience and accessibility.
-- With just regular CSS I was able to create responsive layouts that looks well on every device.
-- On the JavaScript side I took advantage of asynchronous programming and promises to retrieve data from the OMDb API.
+- I approached the website with front end web structure patterns such as seperations of concerns. 
+- I've structured my HTML using semantic tags for better accesibility for a broad range of users.
+- I leveraged a mixture of CSS and Bootstrap to make a fluid UI.
+- I linked the `Order Online` button in the navigation to their DoorDash page for easy access for online delivery.
 
 ## Features
 - Mobile, Desktop, iPad, Tablets & other device types friendly.
@@ -27,12 +28,12 @@ T&K Restaurant is one of Portland's finest Nigerian cuisines spots in the city. 
 </p>
 
 ## Lessons Learned
-- This was another fun project I built that taught me a deeper understanding into the fundamentals of vanilla JavaScript, asynchronous programming, promises and third party API's. This was great practice at working with other developers code, integrating it into my own and reading up on documentation and best practices.  
+- This project was a great one, mainly because the things I learned the most was not from writing code. From this experience I was able to sharpen my interpersonal skills, negiotating, working with clients and deadlines. As a freelancer this was a great opportunity for me to exercise my communication and soft skills which ended up giving me and the clients both a great experience throughout the process.
 
 ## Future Optimizations:
-- Refactor in React.
-- Use local storage to allow users to star their favorite movies and show it in a different navigation page.
-- Implement lazy loading for images.
+- Refactor with a JavaScript framework.
+- Implement lazy loading for images and faster load speed.
+- Combine script files to increase load speed and reduce frequent http request.
 
 
 <h2 align="center">
@@ -48,10 +49,10 @@ More Projects
         </a>
     </td>
     <td width="33.3%" valign="top">
-<a target="_blank" href="https://github.com/ssaryonjr/iReviews"> T&K Nigerian Restaurant</a>
+<a target="_blank" href="https://github.com/ssaryonjr/iMovie-Reviews"> iMovie Reviews</a>
       <br />
-        <a target="_blank" href="https://github.com/ssaryonjr/iReviews">
-          <img src="https://github.com/ssaryonjr/ssaryonjr/raw/main/ezgif.com-gif-maker%20(5).gif?raw=true" width="100%" height="210px" alt="Matching Card Game"/>
+        <a target="_blank" href="https://github.com/ssaryonjr/iMovie-Reviews">
+          <img src="https://github.com/ssaryonjr/ssaryonjr/raw/main/imovie.gif?raw=true" width="100%" height="210px" />
         </a>
     </td>
     <td width="33.3%" valign="top">

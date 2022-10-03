@@ -22,7 +22,7 @@ T&K Restaurant is one of Portland's finest Nigerian cuisines spots in the city. 
 ## Features
 - Mobile, Desktop, iPad, Tablets & other device type friendly.
 <p align="center">
-<img src="https://i.imgur.com/0E8Gx80.png" width="300px"><img src="https://i.imgur.com/XgY7xD7.png" width="300px">
+<img src="https://github.com/ssaryonjr/T-K-Restaurant-/blob/main/ezgif.com-gif-maker%20(1).gif?raw=true" width="300px">
 </p>
 
 - Movie finder drop down search bar.

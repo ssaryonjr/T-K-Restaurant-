@@ -33,7 +33,7 @@ T&K Restaurant is one of Portland's finest Nigerian cuisines spots in the city. 
 - This project was a great one, mainly because the things I learned the most was not from writing code. From this experience I was able to sharpen my interpersonal skills, negiotating, working with clients and deadlines. As a freelancer this was a great opportunity for me to exercise my communication and soft skills which ended up giving me and the clients both a great experience throughout the process.
 
 ## Future Optimizations:
-- Refactor with a JavaScript framework.
+- Refactor with a JavaScript framework such as Raect.
 - Implement lazy loading for images and faster load speed.
 - Combine script files to increase load speed and reduce frequent http request.
 
